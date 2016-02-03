@@ -3,12 +3,13 @@
 Фильтр Габора
 https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BB%D1%8C%D1%82%D1%80_%D0%93%D0%B0%D0%B1%D0%BE%D1%80%D0%B0
 """
-from PIL import Image, ImageDraw
-import utils
+from PIL import Image
 import argparse
 import math
-import frequency
 import os
+
+import utils
+import frequency
 
 
 def gabor_kernel(W, angle, freq):
