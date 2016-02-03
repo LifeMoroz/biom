@@ -1,7 +1,9 @@
-from PIL import Image, ImageDraw
+# coding=utf-8
+from PIL import ImageDraw
 import math
-import sobel
 import copy
+
+import sobel
 
 
 def apply_kernel_at(get_value, kernel, i, j):

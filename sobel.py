@@ -1,4 +1,4 @@
-from PIL import Image, ImageFilter
+from PIL import ImageFilter
 from math import sqrt
 import utils
 

@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
-from PIL import Image, ImageDraw
+from PIL import ImageDraw
+
 import utils
+
 # import argparse
 # import math
 # import os

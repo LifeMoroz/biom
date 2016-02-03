@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-from PIL import Image, ImageDraw
-import utils
+from PIL import Image
 import argparse
-import math
 import os
-from utils import flatten, transpose
+
+import utils
 
 usage = False
 
@@ -78,7 +77,6 @@ if __name__ == "__main__":
     im = im.convert("L")  # covert to grayscale
 
     make_thin(im)
-
 
     if args.save:
         base_image_name = os.path.splitext(os.path.basename(args.image[0]))[0]
